@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --content-width: min(90vw, 75rem);
+    --header-height: clamp(4rem, 8vh, 6rem);
+    --spacing-base: clamp(1rem, 2vw, 2rem);
+  }
+
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Space Mono', monospace;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.02em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: var(--theme-transition);
+  }
+
+  @media (min-width: 1920px) {
+    html {
+      font-size: calc(16px + (24 - 16) * ((100vw - 1920px) / (3840 - 1920)));
+    }
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (768 - 320)));
+    }
+  }
+
+  ::selection {
+    @apply bg-neutral-200 dark:bg-neutral-800;
+  }
+}
+
+/* Layout containers */
+.container-fluid {
+  width: var(--content-width);
+  margin-inline: auto;
+  padding-inline: var(--spacing-base);
+}
+
+/* Responsive typography */
+.text-responsive {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  line-height: 1.5;
+}
+
+.heading-responsive {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.2;
+}
+
+/* Touch targets */
+@media (max-width: 768px) {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.75rem;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+.hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon::before {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
