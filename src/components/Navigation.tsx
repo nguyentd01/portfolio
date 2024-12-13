@@ -13,10 +13,10 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="w-32 md:sticky md:top-8">
-      <ul className="space-y-2">
+    <nav className="w-full py-4 md:py-0">
+      <ul className="flex flex-row md:flex-col gap-4 md:gap-2 w-full overflow-x-auto md:overflow-x-visible justify-around md:justify-start">
         {links.map((link) => (
-          <li key={link.path}>
+          <li key={link.path} className="flex-1 md:flex-none text-center md:text-left">
             <NavLink
               to={link.path}
               className={({ isActive }) =>
