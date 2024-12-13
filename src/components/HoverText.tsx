@@ -25,7 +25,7 @@ export function HoverText({ children, className, isActive }: HoverTextProps) {
       </span>
       <span
         className={cn(
-          'absolute left-0 top-1/2 -translate-y-1/2',
+          'absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:translate-x-0',
           'w-2 h-2 rounded-full bg-neutral-900 dark:bg-white',
           'transition-all duration-300 ease-in-out',
           'opacity-0 scale-0',
