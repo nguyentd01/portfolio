@@ -14,9 +14,9 @@ export default function Navigation() {
 
   return (
     <nav className="w-full py-4 md:py-0">
-      <ul className="flex flex-row md:flex-col gap-4 md:gap-2 w-full overflow-x-auto md:overflow-x-visible justify-around md:justify-start">
+      <ul className="flex flex-row md:flex-col gap-2 md:gap-2 w-full overflow-x-auto md:overflow-x-visible justify-evenly md:justify-start">
         {links.map((link) => (
-          <li key={link.path} className="flex-1 md:flex-none text-center md:text-left">
+          <li key={link.path} className="whitespace-nowrap">
             <NavLink
               to={link.path}
               className={({ isActive }) =>
@@ -40,3 +40,4 @@ export default function Navigation() {
     </nav>
   );
 }
+
