@@ -13,7 +13,7 @@ export default function FAQPage() {
     },
     {
       question: 'What do you plan for the future?',
-      answer: "Continue learning, taking on new challenges, grinding hard to achieve my goals and dreams. Also enjoy life"
+      answer: "Continue learning, taking on new challenges, grinding hard to achieve my goals and dreams."
     },
   ];
 
