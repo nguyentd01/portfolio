@@ -20,21 +20,23 @@ const projects = [
     link: 'https://huggingface.co/nguyentd/FinancialAdvice-Qwen2.5-7B.gguf'
   },
   {
+    title: 'Trading Strategy',
+    description: '(Pinescript) Use SMI + Nadaraya Watson Envelope + SMA',
+    date: 'Dec.2024',
+    link: 'https://www.tradingview.com/script/HTF5DR2O-Kernel-Regression-Envelope-with-SMI-Oscillator/'
+  },
+  {
     title: 'My side hustle',
     description: (
       <>
-        (Not a project) Playerauctions shop with about $3k in total sales, 125+ orders with 100+ feedback (100.00% Positive feedback).<br />
-        * School kept me busy, so this shop was just a summer thing.
+        (Not a project)<br />
+        Playerauctions shop: <br />
+        $3k in total sales, 125+ orders with 100+ feedback (100.00% 5-stars feedback).<br />
+        *School kept me busy, so this shop was just a summer thing.*
       </>
     ),
     date: 'Summer.2023/2024',
     link: 'https://www.playerauctions.com/store/nguyentd010'
-  },
-  {
-    title: 'Trading Strategy',
-    description: '(Pinescript) Use SMI + Nadaraya Watson Envelope + SMA',
-    date: 'Summer.2023',
-    link: '#'
   }
 ];
 
