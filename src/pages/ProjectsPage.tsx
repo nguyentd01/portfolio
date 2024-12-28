@@ -23,7 +23,7 @@ const projects = [
     title: 'Trading Strategy',
     description: '(Pinescript) Use SMI + Nadaraya Watson Envelope + SMA',
     date: 'Dec.2024',
-    link: 'https://www.tradingview.com/script/HTF5DR2O-Kernel-Regression-Envelope-with-SMI-Oscillator/'
+    link: 'https://www.tradingview.com/script/WMt0guGu-Kernel-Regression-Envelope-with-SMI-Oscillator/'
   },
   {
     title: 'My side hustle',
