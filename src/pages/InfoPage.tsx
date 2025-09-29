@@ -60,15 +60,7 @@ export default function InfoPage() {
         <h2 className="text-2xl mb-4 text-neutral-900 dark:text-white">Experience</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="font-normal mb-1 text-neutral-900 dark:text-white">Paper-trader (Tradingview)</h3>
-            <p className="text-neutral-600 dark:text-neutral-300 font-light">2022 - Present</p>
-          </div>
-          <div>
-            <h3 className="font-normal mb-1 text-neutral-900 dark:text-white">Human</h3>
-            <p className="text-neutral-600 dark:text-neutral-300 font-light">2007 - Present</p>
-          </div>
-          <div>
-            <h3 className="font-normal mb-1 text-neutral-900 dark:text-white">Online Business Entrepreneur</h3>
+            <h3 className="font-normal mb-1 text-neutral-900 dark:text-white">Online Business</h3>
             <p className="text-neutral-600 dark:text-neutral-300 font-light">Summer 2023 + Summer 2024</p>
           </div>
           <div>
