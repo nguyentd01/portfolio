@@ -42,7 +42,7 @@ function App() {
                 </div>
                 <h1 className="text-left text-4xl md:text-7xl mb-2 tracking-[-0.05em] font-light">TRAN.D.NGUYEN</h1>
                 <p className="text-left text-fluid-sm text-neutral-600 dark:text-neutral-300 tracking-[-0.02em]">
-                  High school student
+                  Currently attending HCMUT(vn)
                 </p>
               </header>
             </div>
