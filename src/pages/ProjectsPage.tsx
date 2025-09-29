@@ -30,7 +30,7 @@ const projects = [
     description: 'A fast python CLI program that fetch high quality OHLCV FX, crypto,... data from Dukascopy',
     date: 'Sep.2025',
     link: 'https://github.com/nguyentd01/duka_dl'
-  }
+  },
   {
     title: 'My side hustle',
     description: (
