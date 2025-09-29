@@ -26,6 +26,12 @@ const projects = [
     link: 'https://www.tradingview.com/script/WMt0guGu-Kernel-Regression-Envelope-with-SMI-Oscillator/'
   },
   {
+    title: 'Financial data fetcher (for strategy backtesting)',
+    description: 'A fast python CLI program that fetch high quality OHLCV FX, crypto,... data from Dukascopy',
+    date: 'Sep.2025',
+    link: 'https://github.com/nguyentd01/duka_dl'
+  }
+  {
     title: 'My side hustle',
     description: (
       <>
